@@ -26,7 +26,7 @@ class CartReult extends Component {
             </tr>
         );
     }
-    showTotalAmount = (cart) => {
+    showTotalAmount = (cart)=> {
         var total = 0;
         if(cart.length > 0){
             cart.map((Cart) => {
